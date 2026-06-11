@@ -10,7 +10,7 @@ public class Gato extends Animal{
     }
 
     @Override
-    protected void emitirSom() {
+    public void emitirSom() {
         System.out.printf("\nO gato da pelagem %s esta miando!", pelagem);
     }
 }

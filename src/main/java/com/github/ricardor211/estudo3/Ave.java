@@ -10,7 +10,7 @@ public class Ave extends Animal{
     }
 
     @Override
-    protected void emitirSom() {
+    public void emitirSom() {
         System.out.printf("\nO passarinho do tipo %s está cantando!", tipo);
     }
 }
